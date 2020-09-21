@@ -1,0 +1,17 @@
+create -joint Joint2 -rotate <vec3(5.878915, 0.000000, 0.000000)> -translate <vec3(-1.283335, 3.166596, -5.614305)> -parent NULL;
+create -joint Joint3 -rotate <vec3(0.000000, 0.000000, 0.000000)> -translate <vec3(0.063765, -1.853993, 0.182054)> -parent Joint2;
+create -joint Joint4 -rotate <vec3(0.000000, 0.000000, 0.000000)> -translate <vec3(0.653231, -1.501290, 0.164391)> -parent Joint3;
+create -joint Joint5 -rotate <vec3(0.000000, 0.000000, 0.000000)> -translate <vec3(1.433478, -1.518327, 0.176477)> -parent Joint4;
+create -joint Joint6 -rotate <vec3(0.000000, 0.000000, 0.000000)> -translate <vec3(-0.013734, -0.231866, 0.546041)> -parent Joint5;
+create -joint Joint7 -rotate <vec3(0.000000, 0.000000, 0.000000)> -translate <vec3(-1.330808, -1.262710, 0.111263)> -parent Joint3;
+create -joint Joint8 -rotate <vec3(0.000000, 0.000000, 0.000000)> -translate <vec3(0.000691, -1.711696, 0.145333)> -parent Joint7;
+create -joint Joint9 -rotate <vec3(0.000000, 0.000000, 0.000000)> -translate <vec3(-0.615359, -0.063186, 0.073920)> -parent Joint8;
+create -joint Joint10 -rotate <vec3(0.000000, 0.000000, 0.000000)> -translate <vec3(-1.063885, 0.490791, -1.061328)> -parent Joint2;
+create -joint Joint11 -rotate <vec3(0.000000, 0.000000, 0.000000)> -translate <vec3(-0.344580, -0.932462, -0.771193)> -parent Joint10;
+create -joint Joint12 -rotate <vec3(0.000000, 0.000000, 0.000000)> -translate <vec3(0.101838, -0.544949, 1.084187)> -parent Joint11;
+create -joint Joint13 -rotate <vec3(0.000000, 0.000000, 0.000000)> -translate <vec3(-0.024283, -0.667171, 0.377601)> -parent Joint12;
+create -joint Joint14 -rotate <vec3(0.000000, 0.000000, 0.000000)> -translate <vec3(0.902003, -0.216243, 1.144672)> -parent Joint2;
+create -joint Joint15 -rotate <vec3(0.000000, 0.000000, 0.000000)> -translate <vec3(-0.296800, -1.318901, 0.367283)> -parent Joint14;
+create -joint Joint16 -rotate <vec3(0.000000, 0.000000, 0.000000)> -translate <vec3(-1.081248, -0.174446, -0.646680)> -parent Joint15;
+create -joint Joint17 -rotate <vec3(0.000000, 0.000000, 0.000000)> -translate <vec3(-0.519473, -0.155047, -0.428688)> -parent Joint16;
+create -joint Joint18 -rotate <vec3(0.000000, 0.000000, 0.000000)> -translate <vec3(0.309028, 1.189044, -0.007258)> -parent Joint2;

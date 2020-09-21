@@ -6,8 +6,8 @@ by Jasper Matthew Dumdumaya
 **Requires OpenFrameworks v11+**
 
 **Addons**
-	ofxAssimpModelLoader
-	ofxGui
+- ofxAssimpModelLoader
+- ofxGui
 
 **Setup**
 

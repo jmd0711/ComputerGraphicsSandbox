@@ -49,7 +49,7 @@ void Animator::animate()
 				rotation.z = linear(currentFrame_m, framesStart_m[i]->rotate_m.z, framesEnd_m[i]->rotate_m.z - framesStart_m[i]->rotate_m.z, framesEnd_m[i]->cFrame_m);
 
 				scene_m[i]->setLocalPosition(position);
-				scene_m[i]->setLocalRotation(position);
+				scene_m[i]->setLocalRotation(rotation);
 			}
 		}
 	}

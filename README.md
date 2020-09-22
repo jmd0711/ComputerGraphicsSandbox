@@ -21,6 +21,7 @@ by Jasper Matthew Dumdumaya
 - fix raymarcher/add more sdf
 - fix various bugs
 - improve GUI
+- add keyframe features
 
 This project was built on and inspired by a 
 raytracing project I did in university.
@@ -38,3 +39,8 @@ SceneObject::getMatrix
 SceneObject::rotateToVector
 SceneObject::addChild
 Sphere::draw
+
+bugs found...
+- raymarcher broken
+- ray tracing colliding objects unexpected results
+- shadows do not check self (problems with cone and mesh if implemented)
